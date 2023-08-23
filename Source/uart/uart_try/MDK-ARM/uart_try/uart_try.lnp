@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"uart_try\startup_stm32f103xe.o"
+"uart_try\main.o"
+"uart_try\gpio.o"
+"uart_try\usart.o"
+"uart_try\stm32f1xx_it.o"
+"uart_try\stm32f1xx_hal_msp.o"
+"uart_try\stm32f1xx_hal_gpio_ex.o"
+"uart_try\stm32f1xx_hal_tim.o"
+"uart_try\stm32f1xx_hal_tim_ex.o"
+"uart_try\stm32f1xx_hal_uart.o"
+"uart_try\stm32f1xx_hal.o"
+"uart_try\stm32f1xx_hal_rcc.o"
+"uart_try\stm32f1xx_hal_rcc_ex.o"
+"uart_try\stm32f1xx_hal_gpio.o"
+"uart_try\stm32f1xx_hal_dma.o"
+"uart_try\stm32f1xx_hal_cortex.o"
+"uart_try\stm32f1xx_hal_pwr.o"
+"uart_try\stm32f1xx_hal_flash.o"
+"uart_try\stm32f1xx_hal_flash_ex.o"
+"uart_try\stm32f1xx_hal_exti.o"
+"uart_try\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "uart_try\uart_try.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "uart_try.map" -o uart_try\uart_try.axf

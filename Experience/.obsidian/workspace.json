@@ -1,0 +1,187 @@
+{
+  "main": {
+    "id": "f65aa18c360beaf1",
+    "type": "split",
+    "children": [
+      {
+        "id": "a466c24e74495fef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab953e92bc25fd44",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "4299632c332fc27c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "老代码分析.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a3dd77058913057",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "编码器.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1c11b8eaa09099b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ad0ceba17a2d549",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d084272400a44f86",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "89e18793d5a5df8f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d97f72208b9fbb9c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "07cbf0b73477509a",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c89534e1a12d2eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "843278ec6d479588",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "编码器.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e0aedb561b48af40",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "编码器.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dbf56e07f9274e01",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "531fdcd5fa065276",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "编码器.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "5a3dd77058913057",
+  "lastOpenFiles": [
+    "编码器图片/encoder_8.png",
+    "编码器.md",
+    "编码器图片/encoder_7.png",
+    "编码器图片/encoder_6.png",
+    "Pasted image 20230629105821 1.png",
+    "编码器图片/encoder_5.png",
+    "编码器图片/encoder_2.png",
+    "编码器图片/encoder_4.png",
+    "编码器图片/encoder_3.png",
+    "编码器图片/encoder_1.png",
+    "编码器图片",
+    "编码器配置_1.png",
+    "老代码分析.md"
+  ]
+}

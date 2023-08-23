@@ -1,0 +1,1 @@
+Openmv 黄Vin 紫GND

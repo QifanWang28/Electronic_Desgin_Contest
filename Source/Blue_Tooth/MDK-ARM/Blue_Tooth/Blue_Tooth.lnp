@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"blue_tooth\startup_stm32f103xe.o"
+"blue_tooth\main.o"
+"blue_tooth\gpio.o"
+"blue_tooth\usart.o"
+"blue_tooth\stm32f1xx_it.o"
+"blue_tooth\stm32f1xx_hal_msp.o"
+"blue_tooth\stm32f1xx_hal_gpio_ex.o"
+"blue_tooth\stm32f1xx_hal_tim.o"
+"blue_tooth\stm32f1xx_hal_tim_ex.o"
+"blue_tooth\stm32f1xx_hal_uart.o"
+"blue_tooth\stm32f1xx_hal.o"
+"blue_tooth\stm32f1xx_hal_rcc.o"
+"blue_tooth\stm32f1xx_hal_rcc_ex.o"
+"blue_tooth\stm32f1xx_hal_gpio.o"
+"blue_tooth\stm32f1xx_hal_dma.o"
+"blue_tooth\stm32f1xx_hal_cortex.o"
+"blue_tooth\stm32f1xx_hal_pwr.o"
+"blue_tooth\stm32f1xx_hal_flash.o"
+"blue_tooth\stm32f1xx_hal_flash_ex.o"
+"blue_tooth\stm32f1xx_hal_exti.o"
+"blue_tooth\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Blue_Tooth\Blue_Tooth.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Blue_Tooth.map" -o Blue_Tooth\Blue_Tooth.axf

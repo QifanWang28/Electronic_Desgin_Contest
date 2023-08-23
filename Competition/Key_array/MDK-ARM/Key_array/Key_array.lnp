@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"key_array\startup_stm32f103xe.o"
+"key_array\key_board.o"
+"key_array\main.o"
+"key_array\gpio.o"
+"key_array\usart.o"
+"key_array\stm32f1xx_it.o"
+"key_array\stm32f1xx_hal_msp.o"
+"key_array\stm32f1xx_hal_gpio_ex.o"
+"key_array\stm32f1xx_hal_tim.o"
+"key_array\stm32f1xx_hal_tim_ex.o"
+"key_array\stm32f1xx_hal_uart.o"
+"key_array\stm32f1xx_hal.o"
+"key_array\stm32f1xx_hal_rcc.o"
+"key_array\stm32f1xx_hal_rcc_ex.o"
+"key_array\stm32f1xx_hal_gpio.o"
+"key_array\stm32f1xx_hal_dma.o"
+"key_array\stm32f1xx_hal_cortex.o"
+"key_array\stm32f1xx_hal_pwr.o"
+"key_array\stm32f1xx_hal_flash.o"
+"key_array\stm32f1xx_hal_flash_ex.o"
+"key_array\stm32f1xx_hal_exti.o"
+"key_array\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Key_array\Key_array.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Key_array.map" -o Key_array\Key_array.axf
